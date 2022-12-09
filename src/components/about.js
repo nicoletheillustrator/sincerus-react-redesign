@@ -1,12 +1,10 @@
 import React from "react"; 
-import imgown from '../images/ownerimg.jpg'
-import json from '../data/owner.json' 
 import aboutjson from '../data/about/about.json'
 
 function About() {
 
    const style = {
-        backgroundImage: `url("${imgown}")`
+        backgroundImage: `url("${aboutjson.ownerImage}")`
     }
     return(
         <div className="about">
