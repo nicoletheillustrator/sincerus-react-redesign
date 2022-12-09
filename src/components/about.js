@@ -16,7 +16,9 @@ function About() {
                     </div>
                  </div>
                  <p>{aboutjson.name}</p>
-                 <p>{aboutjson.description}<br></br><br></br>{aboutjson.health}</p>
+                 <p>{aboutjson.description}<br></br><br></br><h2>We take health seriously!</h2>
+                 <br></br>
+                 {aboutjson.health}</p>
 
             </div>
         </div>

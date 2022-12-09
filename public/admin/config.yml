@@ -18,3 +18,14 @@ collections:
           - {label: Current Location, name: location, widget: string}
           - {label: Health About, name: health, widget: string}
           - {label: Owner Image, name: ownerImage, widget: "image"}
+
+  - name: "header" # Used in routes, e.g., /admin/collections/blog
+      label: "Headline" # Used in the UI
+      files:
+        - label: "Headline Information"
+          name: "header"
+          file: "src/data/headlines/mainhead.json"
+          fields: 
+            - {label: Description, name: description, widget: string, default: "Please use a small amount of words..."}
+            - {label: Quote, name: quote, widget: string}
+           
