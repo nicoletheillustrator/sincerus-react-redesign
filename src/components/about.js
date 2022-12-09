@@ -1,6 +1,8 @@
 import React from "react"; 
 import imgown from '../images/ownerimg.jpg'
 import json from '../data/owner.json' 
+import aboutjson from '../data/about/about.json'
+
 function About() {
 
    const style = {
@@ -16,7 +18,7 @@ function About() {
                     </div>
                  </div>
                  <p>{json.name}</p>
-                 <p>{json.about}<br></br><br></br>{json.health}</p>
+                 <p>{aboutjson.description}<br></br><br></br>{json.health}</p>
 
             </div>
         </div>

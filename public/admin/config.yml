@@ -14,3 +14,6 @@ collections:
         file: "src/data/about/about.json"
         fields: 
           - {label: Description, name: description, widget: string}
+          - {label: Breeder Name, name: name, widget: string}
+          - {label: Current Location, name: name, widget: string}
+          - {label: Health About, name: health, widget: string}
