@@ -1,12 +1,16 @@
 import React from "react";
-
+import headjson from "../data/headlines/mainhead.json"
 function Header() {
+
+    bgImage = {
+        backgroundImage: `url("${headjson.image}")`
+    }
     return(
-        <div className="header">
+        <div className="header" style={bgImage}>
             <div className="header-wrap">
                 <h1>Sincerus</h1>
-                <h2>Description of the word sincerus.</h2>
-                <p>A quick quote about the dog breed in general. a  beautiful sentence.<br></br>✦</p>
+                <h2>{headjson.description}</h2>
+                <p>{headjson.quote}<br></br>✦</p>
                 
             </div>
         </div>

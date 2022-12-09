@@ -26,6 +26,7 @@ collections:
         name: "header"
         file: "src/data/headlines/mainhead.json"
         fields: 
-          - {label: Description, name: description, widget: string, default: "Please use a small amount of words..."}
+          - {label: Description, name: description, widget: string}
           - {label: Quote, name: quote, widget: string}
+          - {label: Headline Image, name: image, widget: "image"}
            
