@@ -17,3 +17,4 @@ collections:
           - {label: Breeder Name, name: name, widget: string}
           - {label: Current Location, name: location, widget: string}
           - {label: Health About, name: health, widget: string}
+          - {label: Owner Image, name: ownerImage, widget: "image"}

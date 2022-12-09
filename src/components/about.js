@@ -12,13 +12,13 @@ function About() {
         <div className="about">
             <div className="about-wrap">
                  <h2>About Us</h2>
-                 <p>We are located in <span style={{fontWeight: "bold",}}>{json.location}</span></p>
+                 <p>We are located in <span style={{fontWeight: "bold",}}>{aboutjson.location}</span></p>
                  <div className="quick-about">
                     <div className="owner-img" style={style}>
                     </div>
                  </div>
-                 <p>{json.name}</p>
-                 <p>{aboutjson.description}<br></br><br></br>{json.health}</p>
+                 <p>{aboutjson.name}</p>
+                 <p>{aboutjson.description}<br></br><br></br>{aboutjson.health}</p>
 
             </div>
         </div>
