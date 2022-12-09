@@ -2,11 +2,11 @@ import React from "react";
 import headjson from "../data/headlines/mainhead.json"
 function Header() {
 
-    bgImage = {
-        backgroundImage: `url("${headjson.image}")`
-    }
+    // bgImage = {
+    //     backgroundImage: `url("${headjson.image}")`
+    // }
     return(
-        <div className="header" style={bgImage}>
+        <div className="header">
             <div className="header-wrap">
                 <h1>Sincerus</h1>
                 <h2>{headjson.description}</h2>
