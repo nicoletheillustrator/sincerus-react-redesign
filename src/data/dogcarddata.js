@@ -14,8 +14,11 @@ const Data = [
         dogSire: "Mr.Peanuts",
         dogDame: "Mrs.Fluffy",
         dogImg: "",
-        secretMsg: "I love cats"
+        secretMsg: "I love cats",
+        hasAccomplished: false,
+        accomplishments: ["Best in Show", "Winner of the Year", "Best Dog!"]
     },
+
     {
         id: 2,
         dogTitle: "Balto is my favorite puppy",
@@ -29,7 +32,9 @@ const Data = [
         dogSire: "Mr.Peanuts",
         dogDame: "Mrs.Fordder",
         dogImg: "",
-        secretMsg: "I love dogs"
+        secretMsg: "I love dogs",
+        hasAccomplished: true,
+        accomplishments: ["Best in Show", "Winner of the Year", "Best Dog!"]
     },
     {
         id: 3,
@@ -44,7 +49,9 @@ const Data = [
         dogSire: "Mr.Peanuts",
         dogDame: "Mrs.Fly",
         dogImg: "",
-        secretMsg: "I love pie"
+        secretMsg: "I love pie",
+        hasAccomplished: false,
+        accomplishments: ["Best in Show", "Winner of the Year", "Best Dog!"]
     }
 ]
 export default Data;

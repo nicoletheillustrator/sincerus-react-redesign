@@ -18,6 +18,7 @@ function Menu(props, ref) {
 
     //Opening contact page
     const contactref = useRef()
+
     function openContactPanel() {
         contactref.current.classList.add("open-contactpanel")
 
@@ -31,7 +32,6 @@ function Menu(props, ref) {
     //Resets contact page and closes menu 
     function closeAll() {
         props.menuRef.current.classList.remove("menu-active")
-        subcat.current.classList.remove("subcat-show")
         props.setActive(false)
         contactref.current.classList.remove("open-contactpanel")
     }
@@ -44,7 +44,7 @@ function Menu(props, ref) {
                     <ul className="cat-wrap" ref={cat}>
                         <li><a href="/">Home</a></li>
                         <li><a href="/ourdogs">Our Dogs</a></li>
-                        <li onClick={openContactPanel}>Contact Us</li>
+                        <li><a onClick={openContactPanel} href="javascript:;">Contact Us</a></li>
                         <li><a href="_blank">Vizsla Database</a></li>
                     </ul>
                    

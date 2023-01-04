@@ -21,7 +21,6 @@ function DogPage() {
         onClick={()=> {
             setItemID(item)
             itemRef.current.classList.add("open-dogprofile")
-            console.log(itemID)
         }}
 
         />)

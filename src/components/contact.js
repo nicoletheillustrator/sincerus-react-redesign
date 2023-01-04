@@ -1,6 +1,6 @@
 import React from "react"
 
-
+//sincerus.vizslas@gmail.com
 const Contact = (props) => {
     return (
         <div className="contact-wrap" ref={props.contactref}>
