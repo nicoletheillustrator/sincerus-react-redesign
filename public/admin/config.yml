@@ -44,11 +44,11 @@ collections:
               - { label: Dog Name, name: dogName, widget: string }
               - { label: Dog Title, name: dogTitle, widget: string }
               - { label: Date of Birth, name: dob, widget: date, format: 'L', timeFormat: false  }
-              - { label: Accomplishments, name: hasAccomplished, widget: boolean }
-              - { label: The Accomploshments, 
+              - { label: Does your dog have any Accomplishments, name: hasAccomplished, widget: boolean }
+              - { label: Accomplishments, 
                   name: accomplished, 
                   widget: list,
-                  field: { label: Acc, name: Acc, widget: string } }
+                  field: { label: Accomplishment, name: accomp, widget: string } }
               
               
           
