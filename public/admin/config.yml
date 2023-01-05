@@ -48,8 +48,8 @@ collections:
               - { label: The Accomploshments, 
                   name: accomplished, 
                   widget: list,
-                  fields: 
-                    - {widget: string} }
+                  field: { label: Acc, name: Acc, widget: string } }
+              
               
           
            
