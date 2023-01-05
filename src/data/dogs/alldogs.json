@@ -1,13 +1,13 @@
 {
   "All Dogs": [
     {
-      "dob": "Jan 30th 21",
+      "dob": "01/30/2021",
       "dogName": "Balto",
       "dogTitle": "SmileyWinner Balthazarr",
       "hasAccomplished": false
     },
     {
-      "dob": "Jan 1st 16",
+      "dob": "01/01/2016",
       "dogName": "Cadie",
       "dogTitle": "Sincerus Cicada",
       "hasAccomplished": true
