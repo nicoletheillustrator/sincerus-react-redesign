@@ -9,9 +9,9 @@ import DogProfile from "./components/dogprofile";
 function DogPage() {
     const [itemID, setItemID] = useState("nta");
     const itemRef = useRef()
-    const card = Data.map(item => {
+
     
-     
+    const card = Data.map(item => {
         return (
             
         <Dogcard
