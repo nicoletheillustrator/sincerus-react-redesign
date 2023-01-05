@@ -38,7 +38,7 @@ collections:
         create: true
         fields:
           - label: "Dogs"
-            name: "All Dogs"
+            name: allDogs
             widget: list
             fields:
               - { label: Dog Name, name: dogName, widget: string }
