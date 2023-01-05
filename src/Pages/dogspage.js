@@ -1,4 +1,4 @@
-import React, { createRef, useRef, useState } from "react";
+import React, { createRef, useEffect, useRef, useState } from "react";
 import Footer from "../components/footer";
 import Dogcard from "../components/dogcard";
 import Data from "../data/dogcarddata";
@@ -7,11 +7,10 @@ import DogProfile from "./components/dogprofile";
 
 
 function DogPage() {
-
     const [itemID, setItemID] = useState("nta");
     const itemRef = useRef()
     const card = Data.map(item => {
-
+    
      
         return (
             
@@ -21,6 +20,10 @@ function DogPage() {
         onClick={()=> {
             setItemID(item)
             itemRef.current.classList.add("open-dogprofile")
+            itemRef.current.scrollTo({
+                top: 1,
+                behavior: 'smooth',
+            })
         }}
 
         />)

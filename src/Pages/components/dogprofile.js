@@ -10,19 +10,23 @@ const closePage = () => {
 //Some dogs may not have accomplishments, this is a boolean check on wether to include box03 or not. Display none or Visibility?
 const box03 = useRef()
 const hasAccomplishment = props.msg.hasAccomplished
-if (hasAccomplishment === true) {
-    box03.current.style.display = 'block'
-} 
-else {
-    box03.current.style.display = 'none'
-};
+
+useEffect(() => {
+    if (hasAccomplishment === true) {
+        box03.current.style.display = 'block'
+    } 
+    else {
+        box03.current.style.display = 'none'
+    };  
+})
+
 
 
     return(
         <>
      
            
-            <div className="dogprofile" ref={ref} >
+            <div className="dogprofile" ref={ref}>
                 <div className="header">
                     <p>{props.msg.dogTitle}</p>
                     <p>"{props.msg.dogAKA}"</p>
@@ -62,7 +66,7 @@ else {
                         </div>
 
                         <div className="box03" ref={box03}>
-                            <h2>Accomplishments</h2>
+                            <h3>Accomplishments</h3>
                         </div>
 
                         <div className="box04">
