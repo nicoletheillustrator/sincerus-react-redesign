@@ -29,13 +29,14 @@ collections:
           - {label: Quote, name: quote, widget: string}
           - {label: Headline Image, name: image, widget: "image"}
 
-  - name: "profile" # Used in routes, e.g., /admin/collections/blog
-    label: "Your Dogs" # Used in the UI
+  - label: "Your Dogs" # Used in routes, e.g., /admin/collections/blog
+    name: "currentDogs" # Used in the UI
     files:
-      - label: "Your Dogs Information"
-        name: "Profiles"
+      - name: "Your Dogs Information"
+        label: "profiles"
         file: "src/data/dogs/alldogs.json"
         create: true
+        fields:
           - label: "Dogs"
             name: "All Dogs"
             widget: list
