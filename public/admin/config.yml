@@ -45,7 +45,7 @@ collections:
               - { label: Dog Title, name: dogTitle, widget: string }
               - { label: Date of Birth, name: dob, widget: date, format: 'L', timeFormat: false  }
               - { label: Accomplishments, name: hasAccomplished, widget: boolean }
-              - { label: This Dogs Accomplishments, name: accomplishments, widget: list }
+              - { label: This Dogs Accomplishments, name: accomplishments, widget: list, field: - {label: "List", name: listss, widget: string }  }
 
           
            
