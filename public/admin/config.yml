@@ -43,7 +43,7 @@ collections:
             fields: 
               - { label: Dog Name, name: dogName, widget: string }
               - { label: Dog Title, name: dogTitle, widget: string }
-              - { label: Date of Birth, name: dob, widget: date }
+              - { label: Date of Birth, name: dob, widget: date, format: 'MMM Do YY' }
               - { label: Accomplishments, name: hasAccomplished, widget: boolean }
 
           
