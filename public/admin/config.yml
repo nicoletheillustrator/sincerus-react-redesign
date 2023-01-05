@@ -44,6 +44,14 @@ collections:
               - { label: Dog Name, name: dogName, widget: string }
               - { label: Dog Title, name: dogTitle, widget: string }
               - { label: Date of Birth, name: dob, widget: date, format: 'L', timeFormat: false  }
+              - { label: Profile Image, name: dogProfileImg, widget: image }
+              - { label: Banner Image, name: dogBanner, widget: image }
+              - { label: Dam, name: dogDam, widget: string }
+              - { label: Insert Dam Vizsla Database link, name: damLink, widget: string }
+              - { label: Does this Dam have Vizsla Database?, name: hasPedigree, widget: boolean }
+              - { label: Sire, name: dogSire, widget: string }
+              - { label: Does this Sire have Vizsla Database?, name: hasPedigree, widget: boolean }
+              - { label: Insert Sire Vizsla Database link, name: sireLink, widget: string }
               - { label: Does your dog have any Accomplishments, name: hasAccomplished, widget: boolean }
               - { label: Accomplishments, 
                   name: accomplished, 
