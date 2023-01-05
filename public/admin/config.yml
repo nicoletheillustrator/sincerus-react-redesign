@@ -33,7 +33,7 @@ collections:
   - name: "profile" # Used in routes, e.g., /admin/collections/blog
     label: "Your Dogs" # Used in the UI
     files:
-      - label: "Your Dogs' Information"
+      - label: "Your Dogs Information"
         name: "Profiles"
         file: "src/data/dogs/alldogs.json"
         create: true
