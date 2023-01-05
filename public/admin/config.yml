@@ -41,17 +41,18 @@ collections:
             name: "All Dogs"
             widget: list
             fields: 
+              - { label: ID, name: id, widget: hidden, default: "{{uuid}}" }
               - { label: Dog Name, name: dogName, widget: string }
               - { label: Dog Title, name: dogTitle, widget: string }
               - { label: Date of Birth, name: dob, widget: date, format: 'L', timeFormat: false  }
               - { label: Profile Image, name: dogProfileImg, widget: image }
               - { label: Banner Image, name: dogBanner, widget: image }
-              - { label: Dam, name: dogDam, widget: string }
-              - { label: Insert Dam Vizsla Database link, name: damLink, widget: string }
-              - { label: Does this Dam have Vizsla Database?, name: hasDamPedigree, widget: boolean }
-              - { label: Sire, name: dogSire, widget: string }
-              - { label: Does this Sire have Vizsla Database?, name: hasSirePedigree, widget: boolean }
-              - { label: Insert Sire Vizsla Database link, name: sireLink, widget: string }
+              - { label: Dam, name: dogDam, widget: string, required: false }
+              - { label: Does this Dam have Vizsla Database?, name: hasDamPedigree, widget: boolean, required: false, hint: "This allows a button to appear next to the name of the dog, that leads to vizsla database." }
+              - { label: Insert Dam Vizsla Database link, name: damLink, widget: string, required: false  }
+              - { label: Sire, name: dogSire, widget: string, required: false }
+              - { label: Does this Sire have Vizsla Database?, name: hasSirePedigree, widget: boolean, required: false  }
+              - { label: Insert Sire Vizsla Database link, name: sireLink, widget: string, required: false }
               - { label: Does your dog have any Accomplishments, name: hasAccomplished, widget: boolean }
               - { label: Accomplishments, 
                   name: accomplished, 
