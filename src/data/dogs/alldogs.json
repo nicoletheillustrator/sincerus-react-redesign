@@ -1,0 +1,36 @@
+{
+  "allDogs": [
+    {
+      "accomplished": [
+        "Proffesionally cute",
+        "Howling championship winner"
+      ],
+      "dogSire": "Smileywinner Roko",
+      "dogName": "Balto",
+      "dogBanner": "../images/profile-edit.jpg",
+      "dogDam": "Cherry",
+      "dogProfileImg": "../images/profile-edit.jpg",
+      "dob": "01/30/2021",
+      "hasAccomplished": true,
+      "dogTitle": "Smileywinner Balthazzar"
+    },
+    {
+      "accomplished": [
+        "All Champion",
+        "Is a good girl",
+        "Dock diving"
+      ],
+      "dogSire": "Jackpot's Don't Spill The Beans",
+      "dogName": "Cadie",
+      "hasSirePedigree": false,
+      "dogBanner": "../images/1492452_3809827980877_634465150_o.jpg",
+      "damLink": "https://www.vizsladatabase.com/details.php?id=68069",
+      "dogDam": "Play it Again PINK(\"Izzy\")",
+      "dogProfileImg": "../images/1492452_3809827980877_634465150_o.jpg",
+      "dob": "01/01/2016",
+      "hasDamPedigree": true,
+      "hasAccomplished": true,
+      "dogTitle": "Sincerus Cicada"
+    }
+  ]
+}
