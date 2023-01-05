@@ -1,7 +1,7 @@
 import React, { createRef, useEffect, useRef, useState } from "react";
 import Footer from "../components/footer";
 import Dogcard from "../components/dogcard";
-import Data from "../data/dogs/alldogs.json";
+import Data from "../data/dogcarddata";
 import DogProfile from "./components/dogprofile";
 
 
@@ -9,7 +9,7 @@ import DogProfile from "./components/dogprofile";
 function DogPage() {
     const [itemID, setItemID] = useState("nta");
     const itemRef = useRef()
-    const info = [Data]
+    const info = Data
     
     const card = info.map(item => {
         return (
