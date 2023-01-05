@@ -20,20 +20,22 @@ useEffect(() => {
     };  
 })
 
-
+const style = {
+    backgroundImage: `url("${props.msg.dogBanner}")`
+}
 
     return(
         <>
      
            
             <div className="dogprofile" ref={ref}>
-                <div className="header">
+                <div className="header" style={style}>
                     <p>{props.msg.dogTitle}</p>
-                    <p>"{props.msg.dogAKA}"</p>
+                    <p>"{props.msg.dogName}"</p>
                 </div>
             <div>
                 <h2>Date of Birth</h2>
-                <p>{props.msg.dogDOB}</p>
+                <p>{props.msg.dob}</p>
             </div>
 
 
@@ -60,7 +62,7 @@ useEffect(() => {
 
                         <div className="box02">
                             <ul>
-                                <li className="bold-li">Dam:<p>{props.msg.dogDame}</p></li>
+                                <li className="bold-li">Dam:<p>{props.msg.dogDam}</p></li>
                                 <li className="bold-li">Sire:<p>{props.msg.dogSire}</p></li>
                             </ul>
                         </div>

@@ -439,6 +439,9 @@ footer .i-04 {
   width: 210px;
   height: 180px;
   border-radius: 5px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .ourdogs .dogcard .info-box {
   width: 100%;
