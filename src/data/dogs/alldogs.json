@@ -1,21 +1,37 @@
 {
   "All Dogs": [
     {
-      "dob": "01/30/2021",
+      "accomplished": [],
+      "sireLink": "no link",
+      "dogSire": "Smiley Winner Roko",
       "dogName": "Balto",
-      "dogTitle": "SmileyWinner Balthazarr",
+      "hasSirePedigree": false,
+      "dogBanner": "../images/profile-edit.jpg",
+      "damLink": "no link",
+      "dogDam": "Sherri",
+      "dogProfileImg": "../images/profile-edit.jpg",
+      "dob": "01/30/2021",
+      "hasDamPedigree": false,
       "hasAccomplished": false,
-      "accomplished": [
-        "Is a smart, good boy.",
-        "Knows how to sit.",
-        "Has a point!"
-      ]
+      "dogTitle": "SmileyWinner Balthazarr"
     },
     {
-      "dob": "01/01/2016",
+      "accomplished": [
+        "Is a Good Girl!",
+        "Went Champion!"
+      ],
+      "sireLink": "no llink",
+      "dogSire": "Jackpot's Don't Spill The Beans",
       "dogName": "Cadie",
-      "dogTitle": "Sincerus Cicada",
-      "hasAccomplished": true
+      "hasSirePedigree": false,
+      "dogBanner": "../images/1492452_3809827980877_634465150_o.jpg",
+      "damLink": "https://www.vizsladatabase.com/details.php?id=68069",
+      "dogDam": "Play it Again Pink(\"Izzy\")",
+      "dogProfileImg": "../images/1492452_3809827980877_634465150_o.jpg",
+      "dob": "01/01/2016",
+      "hasDamPedigree": true,
+      "hasAccomplished": true,
+      "dogTitle": "Sincerus Cicada"
     }
   ]
 }
