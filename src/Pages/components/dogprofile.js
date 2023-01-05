@@ -62,8 +62,8 @@ const style = {
 
                         <div className="box02">
                             <ul>
-                                <li className="bold-li">Dam:<p>{props.msg.dogDam}</p></li>
                                 <li className="bold-li">Sire:<p>{props.msg.dogSire}</p></li>
+                                <li className="bold-li">Dam:<p>{props.msg.dogDam}</p></li>
                             </ul>
                         </div>
 
