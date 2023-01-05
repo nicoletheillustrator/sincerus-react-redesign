@@ -2,12 +2,12 @@
   "All Dogs": [
     {
       "accomplished": [],
-      "sireLink": "no link",
+      "sireLink": "",
       "dogSire": "Smiley Winner Roko",
       "dogName": "Balto",
       "hasSirePedigree": false,
       "dogBanner": "../images/profile-edit.jpg",
-      "damLink": "no link",
+      "damLink": "",
       "dogDam": "Sherri",
       "dogProfileImg": "../images/profile-edit.jpg",
       "dob": "01/30/2021",
@@ -20,7 +20,7 @@
         "Is a Good Girl!",
         "Went Champion!"
       ],
-      "sireLink": "no llink",
+      "sireLink": "",
       "dogSire": "Jackpot's Don't Spill The Beans",
       "dogName": "Cadie",
       "hasSirePedigree": false,
