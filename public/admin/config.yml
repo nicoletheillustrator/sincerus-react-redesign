@@ -46,8 +46,9 @@ collections:
               - { label: Date of Birth, name: dob, widget: date, format: 'L', timeFormat: false  }
               - { label: Profile Image, name: dogProfileImg, widget: image }
               - { label: Banner Image, name: dogBanner, widget: image }
-              - { label: Do you have OFA link, name: hasOFA, widget: boolean }
-              - { label: Paste link here, name: ofaLink, widget: string }
+              - { label: Please paste in Vizsla Database link, name: vdLink, widget: string }
+              - { label: Do you have OFA link, name: hasOFA, widget: boolean, required: false }
+              - { label: Paste link here, name: ofaLink, widget: string, required: false}
               - { label: Hip Test, name: dogTestHip, widget: string, default: Not Available }
               - { label: Elbow Test, name: dogTestElbows, widget: string, default: Not Available }
               - { label: Eye Test, name: dogTestEye, widget: string, default: Not Available }
