@@ -1,36 +1,50 @@
 {
   "allDogs": [
     {
+      "dogTestHip": "Not Available",
       "accomplished": [
         "Proffesionally cute",
         "Howling championship winner"
       ],
+      "dogTestEye": "Not Available",
+      "ofaLink": ".",
       "dogSire": "Smileywinner Roko",
       "dogName": "Balto",
       "dogBanner": "../images/1492452_3809827980877_634465150_o.jpg",
+      "dogTestThyroid": "Not Available",
+      "hasOFA": false,
       "dogDam": "Cherry",
       "dogProfileImg": "../images/1492452_3809827980877_634465150_o.jpg",
       "dob": "01/30/2021",
+      "dogTestHeart": "Not Available",
       "hasAccomplished": false,
-      "dogTitle": "Smileywinner Balthazzar"
+      "dogTitle": "Smileywinner Balthazzar",
+      "dogTestElbows": "Not Available"
     },
     {
+      "dogTestHip": "Not Available",
       "accomplished": [
         "All Champion",
         "Is a good girl",
         "Dock diving"
       ],
+      "dogTestEye": "Not Available",
+      "ofaLink": ".",
       "dogSire": "Jackpot's Don't Spill The Beans",
       "dogName": "Cadie",
       "hasSirePedigree": false,
       "dogBanner": "../images/1492452_3809827980877_634465150_o.jpg",
       "damLink": "https://www.vizsladatabase.com/details.php?id=68069",
+      "dogTestThyroid": "Not Available",
+      "hasOFA": false,
       "dogDam": "Play it Again PINK(\"Izzy\")",
       "dogProfileImg": "../images/1492452_3809827980877_634465150_o.jpg",
       "dob": "01/01/2016",
+      "dogTestHeart": "Not Available",
       "hasDamPedigree": true,
       "hasAccomplished": true,
-      "dogTitle": "Sincerus Cicada"
+      "dogTitle": "Sincerus Cicada",
+      "dogTestElbows": "Not Available"
     }
   ]
 }
