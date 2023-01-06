@@ -46,6 +46,13 @@ collections:
               - { label: Date of Birth, name: dob, widget: date, format: 'L', timeFormat: false  }
               - { label: Profile Image, name: dogProfileImg, widget: image }
               - { label: Banner Image, name: dogBanner, widget: image }
+              - { label: Do you have OFA link, name: hasOFA, widget: boolean }
+              - { label: Paste link here, name: ofaLink, widget: string }
+              - { label: Hip Test, name: dogTestHip, widget: string, default: Not Available }
+              - { label: Elbow Test, name: dogTestElbows, widget: string, default: Not Available }
+              - { label: Eye Test, name: dogTestEye, widget: string, default: Not Available }
+              - { label: Thyroid Test, name: dogTestThyroid, widget: string, default: Not Available }
+              - { label: Heart Test, name: dogTestHeart, widget: string, default: Not Available }
               - { label: Dam, name: dogDam, widget: string, required: false }
               - { label: Does this Dam have Vizsla Database?, name: hasDamPedigree, widget: boolean, required: false, hint: "This allows a button to appear next to the name of the dog, that leads to vizsla database." }
               - { label: Insert Dam Vizsla Database link, name: damLink, widget: string, required: false  }

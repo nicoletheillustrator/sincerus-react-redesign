@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useEffect, useRef, useState} from "react";
 
 
 const DogProfile = React.forwardRef((props, ref) => {
@@ -20,9 +20,39 @@ useEffect(() => {
     };  
 })
 
+
+
+//Some parent dogs may have photo or pedigree available, this is a boolean check on wether to include a button to take users there>>
+const sireIs = useRef()
+const damIs = useRef()
+const hasSirePedigree = props.msg.hasSirePedigree
+const hasDamPedigree = props.msg.hasDamPedigree
+
+useEffect(() => {
+    if (hasSirePedigree === true) {
+        sireIs.current.style.display = 'block'
+    } 
+    else {
+        sireIs.current.style.display = 'none'
+    };  
+
+    if (hasDamPedigree === true) {
+        damIs.current.style.display = 'block'
+    } 
+    else {
+        damIs.current.style.display = 'none'
+    };  
+})
+
+
 const style = {
     backgroundImage: `url("${props.msg.dogBanner}")`
 }
+//To keep the accomplished list to each dog. In the parent set state is to an empty array then upon the click of the profile button on the dogs page, the state is given per index. Below maps the items, if there is, to an array.
+const listedItems = props.listed.map((item, i)=>
+
+<li key={i}><p>{item}</p></li>
+)
 
     return(
         <>
@@ -62,17 +92,31 @@ const style = {
 
                         <div className="box02">
                             <ul>
-                                <li className="bold-li">Sire:<p>{props.msg.dogSire}</p></li>
-                                <li className="bold-li">Dam:<p>{props.msg.dogDam}</p></li>
+                            <li><p><span className="bold-li">Sire: </span>{props.msg.dogSire}</p>
+                                <a href={props.msg.sireLink} target="_blank">
+                                    <button ref={sireIs}><i className="fa-solid fa-magnifying-glass"></i>
+                                    </button>
+                                </a>
+                            </li>
+                            <li><p><span className="bold-li">Dam: </span>{props.msg.dogDam}</p>
+                                <a href={props.msg.damLink} target="_blank">
+                                    <button ref={damIs}><i className="fa-solid fa-magnifying-glass"></i>
+                                    </button>
+                                </a>
+
+                            </li>
                             </ul>
                         </div>
 
                         <div className="box03" ref={box03}>
                             <h3>Accomplishments</h3>
+                            <ul>
+                                {listedItems}
+                            </ul>
                         </div>
 
                         <div className="box04">
-                        <button>pedigree</button>
+                        <a href={props.msg.vdLink}><button className="colorbutton">pedigree</button></a>
                         <button className="button" onClick={closePage}>back to dogs</button>
                     </div>
             </div>

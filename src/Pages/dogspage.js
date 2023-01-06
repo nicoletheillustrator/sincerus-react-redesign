@@ -11,23 +11,27 @@ function DogPage() {
     const itemRef = useRef()
     const alldog = Data.allDogs
     const info = alldog
-    
-    const card = info.map(item => {
+    const [isList, setIsList] = useState([0])
+
+
+
+    const card = info.map((item, i) => {
         return (
-            
         <Dogcard
         data={item}  
-        key={item.id}  
+        key={i}  
         onClick={()=> {
             setItemID(item)
             itemRef.current.classList.add("open-dogprofile")
-            itemRef.current.scrollTo({
-                top: 1,
-                behavior: 'smooth',
-            })
-        }}
+                itemRef.current.scrollTo({
+                    top: 1,
+                    behavior: 'smooth',
+                })
 
+            setIsList(item.accomplished)
+        }}
         />)
+        
     })
 
 
@@ -43,7 +47,7 @@ function DogPage() {
                       {card}
                 </div>
 
-            <DogProfile msg={itemID} ref={itemRef}/>
+            <DogProfile msg={itemID} ref={itemRef} listed={isList}/>
                 <Footer />
             </div>
     )
