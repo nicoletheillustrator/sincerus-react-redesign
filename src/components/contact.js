@@ -3,7 +3,7 @@ import React from "react"
 //sincerus.vizslas@gmail.com
 const Contact = (props) => {
     return (
-        <form name="contact v1"  method="post" data-netlify="true" onSubmit="submit" className="contact-wrap" ref={props.contactref}>
+        <form className="contact-wrap" ref={props.contactref}>
             <div className="i-class">
                 
                         <i className="fa-solid fa-arrow-left-long" onClick={props.functionBack}></i>
@@ -12,7 +12,7 @@ const Contact = (props) => {
                 
                 <h3>Contact Us</h3>
                 
-                <form action="">
+                <form name="contact v1"  method="post" data-netlify="true" onSubmit="submit">
                     
                     <input className="a" placeholder="Your name.." name="name"></input>
                     
@@ -22,7 +22,7 @@ const Contact = (props) => {
 
                                 
                     <button>cancel</button>
-                    <button className="send-btn" type="submit">send</button>
+                    <button className="send-btn" type="">send</button>
             
                 </form>
 
