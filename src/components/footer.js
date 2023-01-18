@@ -1,5 +1,5 @@
 import React from "react";
-import json from "../data/owner.json";
+import json from "../data/about/about.json";
 
  function Footer() {
     return(
@@ -11,7 +11,7 @@ import json from "../data/owner.json";
              <a className="i-04" href="https://www.vizsladatabase.com/results.php?keyword=sincerus&mode=simple" target="_blank">Vizsla Database</a>
               <span className="i-05">
                 <a href="https://www.facebook.com/kelly.park.121"><i className="fa-brands fa-facebook" target="_blank" ></i></a>
-                <p>{json.footerAbout}
+                <p>{json.footerQuick}
                 </p>
               </span>
               

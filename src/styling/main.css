@@ -583,6 +583,9 @@ hr {
 .dogprofile .box01 .-result {
   font-weight: 400;
   margin-left: 10px;
+  font-family: var(--paragraphFont);
+  font-size: 14px;
+  color: #2E2C2F;
 }
 .dogprofile .box02 {
   background-color: #c5c7c9;

@@ -18,6 +18,7 @@ collections:
           - {label: Current Location, name: location, widget: string}
           - {label: Health About, name: health, widget: string}
           - {label: Owner Image, name: ownerImage, widget: "image"}
+          - {label: Footer Quick Text, name: footerQuick, widget: "string"}
   - name: "header" # Used in routes, e.g., /admin/collections/blog
     label: "Headline" # Used in the UI
     files:
@@ -46,7 +47,7 @@ collections:
               - { label: Date of Birth, name: dob, widget: date, format: 'L', timeFormat: false  }
               - { label: Profile Image, name: dogProfileImg, widget: image }
               - { label: Banner Image, name: dogBanner, widget: image }
-              - { label: Please paste in Vizsla Database link, name: vdLink, widget: string }
+              - { label: Please paste in Vizsla Database link, name: vdLink, widget: string, required: false }
               - { label: Do you have OFA link, name: hasOFA, widget: boolean, required: false }
               - { label: Paste link here, name: ofaLink, widget: string, required: false}
               - { label: Hip Test, name: dogTestHip, widget: string, default: Not Available }
