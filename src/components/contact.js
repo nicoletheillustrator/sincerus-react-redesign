@@ -12,13 +12,13 @@ const Contact = (props) => {
                 
                 <h3>Contact Us</h3>
                 
-                <form name="contact v1"  method="POST" data-netlify="true" onSubmit="submit">
+                <form name="contact+" action="/contact"  method="post" >
+                    <input type="hidden" name="form-name" value="contact"></input>
+                    <input type="text" name="name" className="a" placeholder="Your name.." required ></input>
                     
-                    <input className="a" placeholder="Your name.." name="name"></input>
-                    
-                    <input className="b" placeholder="Your email.." name="email"></input>
+                    <input type="text" name="email" className="b" placeholder="Your email.." required ></input>
                                 
-                                <textarea className="c col-span" placeholder="Type your message here.."></textarea>
+                                <textarea required className="c col-span" placeholder="Type your message here.."></textarea>
 
                                 
                     <button>cancel</button>
