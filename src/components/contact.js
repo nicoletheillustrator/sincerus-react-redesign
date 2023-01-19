@@ -18,7 +18,7 @@ const Contact = (props) => {
                     
                     <input type="text" name="email" className="b" placeholder="Your email.." required ></input>
                                 
-                                <textarea required className="c col-span" placeholder="Type your message here.."></textarea>
+                                <textarea required className="c col-span" placeholder="Type your message here.." type="text"></textarea>
 
                                 
                     <button>cancel</button>
