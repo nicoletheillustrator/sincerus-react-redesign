@@ -1,6 +1,6 @@
 import React, { useRef, useState} from "react";
 import Menu from "./menu";
-
+import png2 from "../images/doghead.svg"
 function Navigation() {
   const  navopen = "fa-solid fa-bars"
   const menuRef = useRef()
@@ -13,12 +13,13 @@ function openMenu() {
     setActive(true)
   }
 
-
-console.log(active)
+const svgstyle = {
+    width: 32
+}
     return (
         <nav>
             <div className="nav-wrap">
-                <p>Sincerus Vizslas</p>
+                <img src={png2} style={svgstyle}></img>
                 <i className={navopen} onClick={openMenu} ></i>
                 <ul className="menu-ml list-menu">
                     <li><a href="/">Home</a></li>
