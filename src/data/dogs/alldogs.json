@@ -22,29 +22,31 @@
       "dogTestElbows": "Not Available"
     },
     {
-      "dogTestHip": "Not Available",
+      "dogTestHip": "Good -VZ-14450G27F-VPI",
       "accomplished": [
-        "All Champion",
+        "2015 National Best In Sweepstakes",
         "Is a good girl",
         "Dock diving"
       ],
-      "dogTestEye": "Not Available",
-      "ofaLink": ".",
+      "sireLink": "https://www.vizsladatabase.com/details.php?id=70369",
+      "dogTestEye": "Normal -VZ-EYE520/28F-PI",
+      "ofaLink": "https://ofa.org/advanced-search/?appnum=1796284",
       "dogSire": "Jackpot's Don't Spill The Beans",
       "dogName": "Cadie",
-      "hasSirePedigree": false,
+      "hasSirePedigree": true,
       "dogBanner": "../images/1492452_3809827980877_634465150_o.jpg",
+      "vdLink": "https://www.vizsladatabase.com/details.php?id=103822",
       "damLink": "https://www.vizsladatabase.com/details.php?id=68069",
-      "dogTestThyroid": "Not Available",
-      "hasOFA": false,
-      "dogDam": "Play it Again PINK(\"Izzy\")",
-      "dogProfileImg": "../images/1492452_3809827980877_634465150_o.jpg",
-      "dob": "01/01/2016",
-      "dogTestHeart": "Not Available",
+      "dogTestThyroid": "Normal -VZ-TH1196/27F-VPI",
+      "hasOFA": true,
+      "dogDam": "GCH Artisan Play It Again Pink AX AXJ NF ROM",
+      "dogProfileImg": "../images/cadie-group-placing.jpg",
+      "dob": "12/31/2013",
+      "dogTestHeart": "Normal -VZ-ACA5/28F-PI",
       "hasDamPedigree": true,
       "hasAccomplished": true,
-      "dogTitle": "Sincerus Cicada",
-      "dogTestElbows": "Not Available"
+      "dogTitle": "GCHB Sincerus Cicada",
+      "dogTestElbows": "Normal -VZ-EL2295F27-VPI"
     }
   ]
 }
