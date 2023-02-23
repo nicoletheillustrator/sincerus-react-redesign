@@ -13,7 +13,7 @@
       "dogSire": "Jackpot's Don't Spill The Beans",
       "dogName": "Cadie",
       "hasSirePedigree": true,
-      "dogBanner": "../images/cadiegroupplacingnew.jpg",
+      "dogBanner": "../images/bg-vizsla-02.jpg",
       "vdLink": "https://www.vizsladatabase.com/details.php?id=103822",
       "damLink": "https://www.vizsladatabase.com/details.php?id=68069",
       "dogTestThyroid": "Normal -VZ-TH1196/27F-VPI",
@@ -29,4 +29,3 @@
     }
   ]
 }
-
