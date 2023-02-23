@@ -1,27 +1,6 @@
 {
   "allDogs": [
     {
-      "dogTestHip": "Not Available",
-      "accomplished": [
-        "Proffesionally cute",
-        "Howling championship winner"
-      ],
-      "dogTestEye": "Not Available",
-      "ofaLink": ".",
-      "dogSire": "Smileywinner Roko",
-      "dogName": "Balto",
-      "dogBanner": "../images/1492452_3809827980877_634465150_o.jpg",
-      "dogTestThyroid": "Not Available",
-      "hasOFA": false,
-      "dogDam": "Cherry",
-      "dogProfileImg": "../images/1492452_3809827980877_634465150_o.jpg",
-      "dob": "01/30/2021",
-      "dogTestHeart": "Not Available",
-      "hasAccomplished": false,
-      "dogTitle": "Smileywinner Balthazzar",
-      "dogTestElbows": "Not Available"
-    },
-    {
       "dogTestHip": "Good -VZ-14450G27F-VPI",
       "accomplished": [
         "2015 National Best In Sweepstakes",
@@ -47,6 +26,27 @@
       "hasAccomplished": true,
       "dogTitle": "GCHB Sincerus Cicada",
       "dogTestElbows": "Normal -VZ-EL2295F27-VPI"
+    },
+    {
+      "dogTestHip": "Not Available",
+      "accomplished": [
+        "Proffesionally cute",
+        "Howling championship winner"
+      ],
+      "dogTestEye": "Not Available",
+      "ofaLink": ".",
+      "dogSire": "Smileywinner Roko",
+      "dogName": "Balto",
+      "dogBanner": "../images/1492452_3809827980877_634465150_o.jpg",
+      "dogTestThyroid": "Not Available",
+      "hasOFA": false,
+      "dogDam": "Cherry",
+      "dogProfileImg": "../images/1492452_3809827980877_634465150_o.jpg",
+      "dob": "01/30/2021",
+      "dogTestHeart": "Not Available",
+      "hasAccomplished": false,
+      "dogTitle": "Smileywinner Balthazzar",
+      "dogTestElbows": "Not Available"
     }
   ]
 }
