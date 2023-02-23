@@ -25,7 +25,7 @@ function DogPage() {
             itemRef.current.classList.add("open-dogprofile")
                 itemRef.current.scrollTo({
                     top: 1,
-                    behavior: 'smooth',
+                    behavior: 'smooth', 
                 })
 
             setIsList(item.accomplished)
