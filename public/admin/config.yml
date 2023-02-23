@@ -2,7 +2,7 @@ backend:
   name: git-gateway
   branch: master # Branch to update (optional; defaults to master)
  
-media_folder: "src/images" # Media files will be stored in the repo under images/uploads
+media_folder: "/images" # Media files will be stored in the repo under images/uploads
 public_folder: "../images" # The src attribute for uploaded media will begin with /images/uploads
 
 collections:
@@ -18,7 +18,7 @@ collections:
           - {label: Current Location, name: location, widget: string}
           - {label: Health About, name: health, widget: string}
           - {label: Owner Image, name: ownerImage, widget: "image"}
-          - {label: Footer Quick Text, name: footerQuick, widget: "string"}
+          - {label: Footer Quick Text, name: footerQuick, widget: "string"}1
   - name: "header" # Used in routes, e.g., /admin/collections/blog
     label: "Headline" # Used in the UI
     files:

@@ -6,6 +6,7 @@ const style = {
     backgroundImage: `url(${props.data.dogProfileImg})`
 }
 
+
     return (
         <>
         <div className="dogcard">
@@ -22,4 +23,25 @@ const style = {
     )
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 export default Dogcard;
+
