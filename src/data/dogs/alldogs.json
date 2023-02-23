@@ -1,33 +1,6 @@
 {
   "allDogs": [
     {
-      "dogTestHip": "Good -VZ-14450G27F-VPI",
-      "accomplished": [
-        "2015 National Best In Sweepstakes",
-        "Is a good girl",
-        "Dock diving"
-      ],
-      "sireLink": "https://www.vizsladatabase.com/details.php?id=70369",
-      "dogTestEye": "Normal -VZ-EYE520/28F-PI",
-      "ofaLink": "https://ofa.org/advanced-search/?appnum=1796284",
-      "dogSire": "Jackpot's Don't Spill The Beans",
-      "dogName": "Cadie",
-      "hasSirePedigree": true,
-      "dogBanner": "../images/34990475985_84923j.jpg",
-      "vdLink": "https://www.vizsladatabase.com/details.php?id=103822",
-      "damLink": "https://www.vizsladatabase.com/details.php?id=68069",
-      "dogTestThyroid": "Normal -VZ-TH1196/27F-VPI",
-      "hasOFA": true,
-      "dogDam": "GCH Artisan Play It Again Pink AX AXJ NF ROM",
-      "dogProfileImg": "../images/34990475985_84923j.jpg",
-      "dob": "12/31/2013",
-      "dogTestHeart": "Normal -VZ-ACA5/28F-PI",
-      "hasDamPedigree": true,
-      "hasAccomplished": true,
-      "dogTitle": "GCHB Sincerus Cicada",
-      "dogTestElbows": "Normal -VZ-EL2295F27-VPI"
-    },
-    {
       "dogTestHip": "Not Available",
       "accomplished": [
         "Proffesionally cute",
@@ -47,6 +20,33 @@
       "hasAccomplished": false,
       "dogTitle": "Smileywinner Balthazzar",
       "dogTestElbows": "Not Available"
+    },
+    {
+      "dogTestHip": "Good -VZ-14450G27F-VPI",
+      "accomplished": [
+        "2015 National Best In Sweepstakes",
+        "Is a good girl",
+        "Dock diving"
+      ],
+      "sireLink": "https://www.vizsladatabase.com/details.php?id=70369",
+      "dogTestEye": "Normal -VZ-EYE520/28F-PI",
+      "ofaLink": "https://ofa.org/advanced-search/?appnum=1796284",
+      "dogSire": "Jackpot's Don't Spill The Beans",
+      "dogName": "Cadie",
+      "hasSirePedigree": true,
+      "dogBanner": "../images/cadiegroupplacingnew.jpg",
+      "vdLink": "https://www.vizsladatabase.com/details.php?id=103822",
+      "damLink": "https://www.vizsladatabase.com/details.php?id=68069",
+      "dogTestThyroid": "Normal -VZ-TH1196/27F-VPI",
+      "hasOFA": true,
+      "dogDam": "GCH Artisan Play It Again Pink AX AXJ NF ROM",
+      "dogProfileImg": "../images/videocapture_20221023-145058_mh1666504668787.jpg",
+      "dob": "12/31/2013",
+      "dogTestHeart": "Normal -VZ-ACA5/28F-PI",
+      "hasDamPedigree": true,
+      "hasAccomplished": true,
+      "dogTitle": "GCHB Sincerus Cicada",
+      "dogTestElbows": "Normal -VZ-EL2295F27-VPI"
     }
   ]
 }
