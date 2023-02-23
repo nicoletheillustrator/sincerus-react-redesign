@@ -3,8 +3,9 @@ import React, { useEffect } from "react";
 const Dogcard = (props) => {
 
 const style = {
-    backgroundImage: `url("${props.data.dogProfileImg}")`
+    backgroundImage: `url(${props.data.dogProfileImg})`
 }
+
     return (
         <>
         <div className="dogcard">

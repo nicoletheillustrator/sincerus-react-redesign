@@ -1,11 +1,12 @@
 import React from "react"; 
 import aboutjson from '../data/about/about.json'
-
+//${aboutjson.ownerImage}
 function About() {
 
    const style = {
-        backgroundImage: `url("${aboutjson.ownerImage}")`
+        backgroundImage: `url(${aboutjson.ownerImage})`
     }
+    console.log(aboutjson.ownerImage)
     return(
         <div className="about">
             <div className="about-wrap">
