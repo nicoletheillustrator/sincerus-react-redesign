@@ -47,18 +47,7 @@ nav .nav-wrap ul {
   opacity: 0;
   margin-right: 25px;
   transform: translateX(40px);
-  -webkit-animation: menuinline 400ms cubic-bezier(0.11, 0, 0.5, 0) forwards;
-          animation: menuinline 400ms cubic-bezier(0.11, 0, 0.5, 0) forwards;
-}
-@-webkit-keyframes menuinline {
-  from {
-    opacity: 0;
-    transform: translateX(40px);
-  }
-  to {
-    opacity: 1;
-    transform: translateX(0);
-  }
+  animation: menuinline 400ms cubic-bezier(0.11, 0, 0.5, 0) forwards;
 }
 @keyframes menuinline {
   from {
@@ -297,7 +286,6 @@ footer .i-04 {
 }
 
 .contact-wrap {
-  position: -webkit-sticky;
   position: sticky;
   background-color: white;
   width: 100%;
@@ -379,16 +367,7 @@ footer .i-04 {
 
 .open-contactpanel {
   display: block;
-  -webkit-animation: contactopen 500ms cubic-bezier(0.16, 1, 0.3, 1) forwards;
-          animation: contactopen 500ms cubic-bezier(0.16, 1, 0.3, 1) forwards;
-}
-@-webkit-keyframes contactopen {
-  from {
-    transform: translateX(-1000px);
-  }
-  to {
-    transform: translateX(0px);
-  }
+  animation: contactopen 500ms cubic-bezier(0.16, 1, 0.3, 1) forwards;
 }
 @keyframes contactopen {
   from {
@@ -435,8 +414,7 @@ footer .i-04 {
   margin: 0 auto;
 }
 .ourdogs .dogcard .img-box {
-  background-color: black;
-  width: 210px;
+  width: 410px;
   height: 180px;
   border-radius: 5px;
   background-position: center;
@@ -622,7 +600,6 @@ hr {
 }
 .dogprofile .box03 {
   width: 100%;
-  height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
   background-color: #8b9298;
