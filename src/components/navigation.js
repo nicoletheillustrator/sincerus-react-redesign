@@ -1,6 +1,8 @@
 import React, { useRef, useState} from "react";
 import Menu from "./menu";
-import png2 from "../images/doghead.svg"
+
+import png2 from "../data/icons/doghead.png"
+
 function Navigation() {
   const  navopen = "fa-solid fa-bars"
   const menuRef = useRef()
